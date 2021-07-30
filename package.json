@@ -1,0 +1,11 @@
+{
+	"name": "github-label-sync",
+	"private": true,
+  "scripts": {
+    "sync": "node -r dotenv/config index.js"
+  },
+	"dependencies": {
+		"dotenv": "10.0.0",
+		"github-label-sync": "2.0.2"
+	}
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "test: label 1",
+    "color": "ff0000",
+    "aliases": [],
+    "description": "test red label"
+  },
+  {
+    "name": "test: label 2",
+    "color": "00ff00",
+    "aliases": [],
+    "description": "test green label"
+  }
+]
