@@ -1,7 +1,7 @@
 [
   {
     "repos": [
-      "winstonproject/github-label-sync",
+      "winstonproject/github-labels-sync",
       "winstonproject/engineering",
       "winstonproject/eleven21",
       "winstonproject/dev--eleven21-framework",
@@ -113,19 +113,19 @@
       {
         "name": "change: major",
         "description": "Make breaking changes",
-        "color": "D1D5DB",
+        "color": "78716C",
         "aliases": []
       },
       {
         "name": "change: minor",
         "description": "Add backwards compatible functionality",
-        "color": "D1D5DB",
+        "color": "78716C",
         "aliases": []
       },
       {
         "name": "change: patch",
         "description": "Make backwards compatible bug fixes",
-        "color": "D1D5DB",
+        "color": "78716C",
         "aliases": []
       },
       {
