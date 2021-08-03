@@ -1,7 +1,9 @@
 # GitHub Labels Sync
 
+Managing default repository labels via GitHub is time-consuming and inefficient. This project accomplishes 2 things:
+
 1. Define labels for single or groups of repositories in one place.
-2. Run a single command to sync changes.
+2. Run a single command to sync changes with each target repository.
 
 ## Getting started
 
