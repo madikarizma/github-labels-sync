@@ -1,14 +1,15 @@
 const githubLabelSync = require('github-label-sync');
-const labels = require('./labels.json');
-const repos = require('./repos.json');
+const config = require('./config.json');
 
-repos.forEach((repo) => {
-	githubLabelSync({
-		accessToken: process.env.GITHUB_ACCESS_TOKEN,
-		allowAddedLabels: false,
-		labels,
-		repo
-	}).then((diff) => {
-		console.log(diff);
+config.forEach((configElement) => {
+	configElement.repos.forEach((repo) => {
+		githubLabelSync({
+			accessToken: process.env.GITHUB_ACCESS_TOKEN,
+			allowAddedLabels: false,
+			labels: configElement.labels,
+			repo
+		}).then((diff) => {
+			console.log(diff);
+		});
 	});
 });

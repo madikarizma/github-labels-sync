@@ -1,0 +1,157 @@
+[
+  {
+    "repos": [
+      "winstonproject/github-label-sync",
+      "winstonproject/engineering",
+      "winstonproject/eleven21",
+      "winstonproject/dev--eleven21-framework",
+      "winstonproject/devops"
+    ],
+    "labels": [
+      {
+        "name": "effort: 1",
+        "description": "1 estimated story point",
+        "color": "FED7AA",
+        "aliases": []
+      },
+      {
+        "name": "effort: 2",
+        "description": "2 estimated story points",
+        "color": "FED7AA",
+        "aliases": []
+      },
+      {
+        "name": "effort: 3",
+        "description": "3 estimated story points",
+        "color": "FED7AA",
+        "aliases": []
+      },
+      {
+        "name": "effort: 5",
+        "description": "5 estimated story points",
+        "color": "FED7AA",
+        "aliases": []
+      },
+      {
+        "name": "effort: 8",
+        "description": "8 estimated story points",
+        "color": "FED7AA",
+        "aliases": []
+      },
+      {
+        "name": "effort: 13",
+        "description": "13 estimated story points",
+        "color": "FED7AA",
+        "aliases": []
+      },
+      {
+        "name": "effort: 21",
+        "description": "21 estimated story points",
+        "color": "FED7AA",
+        "aliases": []
+      },
+      {
+        "name": "status: to be determined",
+        "description": "Idea, placeholder, unorganized notes, etc.",
+        "color": "D1D5DB",
+        "aliases": []
+      },
+      {
+        "name": "status: planning",
+        "description": "Preparing specs, designs, content, etc.",
+        "color": "D1D5DB",
+        "aliases": []
+      },
+      {
+        "name": "status: ready",
+        "description": "Ready for development",
+        "color": "15803D",
+        "aliases": []
+      },
+      {
+        "name": "status: in progress",
+        "description": "Development has started",
+        "color": "4F46E5",
+        "aliases": []
+      },
+      {
+        "name": "status: paused",
+        "description": "Work has been paused",
+        "color": "C7D2FE",
+        "aliases": []
+      },
+      {
+        "name": "status: blocked",
+        "description": "Blocked on some issue",
+        "color": "DC2626",
+        "aliases": []
+      },
+      {
+        "name": "status: open pull request",
+        "description": "Open pull request is under review awaiting release",
+        "color": "FCD34D",
+        "aliases": []
+      },
+      {
+        "name": "status: released",
+        "description": "Released to production",
+        "color": "2563EB",
+        "aliases": []
+      },
+      {
+        "name": "status: duplicate",
+        "description": "Duplicate of another issue",
+        "color": "D1D5DB",
+        "aliases": []
+      },
+      {
+        "name": "status: abandoned",
+        "description": "Will not proceed",
+        "color": "D1D5DB",
+        "aliases": []
+      },
+      {
+        "name": "change: major",
+        "description": "Make breaking changes",
+        "color": "D1D5DB",
+        "aliases": []
+      },
+      {
+        "name": "change: minor",
+        "description": "Add backwards compatible functionality",
+        "color": "D1D5DB",
+        "aliases": []
+      },
+      {
+        "name": "change: patch",
+        "description": "Make backwards compatible bug fixes",
+        "color": "D1D5DB",
+        "aliases": []
+      },
+      {
+        "name": "type: bug",
+        "description": "Bug report",
+        "color": "DC2626",
+        "aliases": []
+      },
+      {
+        "name": "type: documentation",
+        "description": "Improve documentation for a topic",
+        "color": "0E7490",
+        "aliases": []
+      },
+      {
+        "name": "type: enhancement",
+        "description": "Improve existing functionality",
+        "color": "C026D3",
+        "aliases": []
+      },
+      {
+        "name": "type: maintenance",
+        "description": "Pruning, refactoring, etc.",
+        "color": "A16207",
+        "aliases": []
+      }
+    ]
+  }
+]
