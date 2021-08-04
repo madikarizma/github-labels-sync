@@ -11,55 +11,43 @@
       {
         "name": "effort: 1",
         "description": "1 estimated story point",
-        "color": "FED7AA",
+        "color": "D6D3D1",
         "aliases": []
       },
       {
         "name": "effort: 2",
         "description": "2 estimated story points",
-        "color": "FED7AA",
+        "color": "D6D3D1",
         "aliases": []
       },
       {
         "name": "effort: 3",
         "description": "3 estimated story points",
-        "color": "FED7AA",
+        "color": "D6D3D1",
         "aliases": []
       },
       {
         "name": "effort: 5",
         "description": "5 estimated story points",
-        "color": "FED7AA",
+        "color": "D6D3D1",
         "aliases": []
       },
       {
         "name": "effort: 8",
         "description": "8 estimated story points",
-        "color": "FED7AA",
+        "color": "D6D3D1",
         "aliases": []
       },
       {
         "name": "effort: 13",
         "description": "13 estimated story points",
-        "color": "FED7AA",
+        "color": "D6D3D1",
         "aliases": []
       },
       {
         "name": "effort: 21",
         "description": "21 estimated story points",
-        "color": "FED7AA",
-        "aliases": []
-      },
-      {
-        "name": "status: to be determined",
-        "description": "Idea, placeholder, unorganized notes, etc.",
-        "color": "D1D5DB",
-        "aliases": []
-      },
-      {
-        "name": "status: planning",
-        "description": "Preparing specs, designs, content, etc.",
-        "color": "D1D5DB",
+        "color": "D6D3D1",
         "aliases": []
       },
       {
@@ -81,12 +69,6 @@
         "aliases": []
       },
       {
-        "name": "status: blocked",
-        "description": "Blocked on some issue",
-        "color": "DC2626",
-        "aliases": []
-      },
-      {
         "name": "status: open pull request",
         "description": "Open pull request is under review awaiting release",
         "color": "FCD34D",
@@ -101,55 +83,55 @@
       {
         "name": "status: duplicate",
         "description": "Duplicate of another issue",
-        "color": "D1D5DB",
+        "color": "6B7280",
         "aliases": []
       },
       {
         "name": "status: abandoned",
         "description": "Will not proceed",
-        "color": "D1D5DB",
+        "color": "6B7280",
         "aliases": []
       },
       {
-        "name": "change: major",
-        "description": "Make breaking changes",
-        "color": "78716C",
+        "name": "problem: blocked",
+        "description": "Blocked by something else",
+        "color": "DC2626",
         "aliases": []
       },
       {
-        "name": "change: minor",
-        "description": "Add backwards compatible functionality",
-        "color": "78716C",
-        "aliases": []
-      },
-      {
-        "name": "change: patch",
-        "description": "Make backwards compatible bug fixes",
-        "color": "78716C",
-        "aliases": []
-      },
-      {
-        "name": "type: bug",
+        "name": "problem: bug",
         "description": "Bug report",
         "color": "DC2626",
         "aliases": []
       },
       {
-        "name": "type: documentation",
-        "description": "Improve documentation for a topic",
-        "color": "0E7490",
+        "name": "problem: security",
+        "description": "Security vulnerability exists",
+        "color": "DC2626",
         "aliases": []
       },
       {
-        "name": "type: enhancement",
-        "description": "Improve existing functionality",
-        "color": "C026D3",
+        "name": "problem: accessibility",
+        "description": "Accessibility standards not met",
+        "color": "DC2626",
         "aliases": []
       },
       {
-        "name": "type: maintenance",
-        "description": "Pruning, refactoring, etc.",
-        "color": "A16207",
+        "name": "type: details",
+        "description": "Specs, documentation, design, content, etc.",
+        "color": "EA580C",
+        "aliases": []
+      },
+      {
+        "name": "type: operations",
+        "description": "Infrastructure, process, releases, workflow needs, etc.",
+        "color": "A21CAF",
+        "aliases": []
+      },
+      {
+        "name": "type: development",
+        "description": "Coding, builds, testing, refactoring, etc.",
+        "color": "EC4899",
         "aliases": []
       }
     ]
