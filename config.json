@@ -2,6 +2,7 @@
   {
     "repos": [
       "winstonproject/github-labels-sync",
+      "winstonproject/api",
       "winstonproject/engineering",
       "winstonproject/eleven21",
       "winstonproject/dev--eleven21-framework",
@@ -51,26 +52,32 @@
         "aliases": []
       },
       {
+        "name": "status: awaiting specification",
+        "description": "Details need to be sorted out",
+        "color": "A16207",
+        "aliases": []
+      },
+      {
         "name": "status: ready",
-        "description": "Ready for development",
+        "description": "Ready to begin work",
         "color": "15803D",
         "aliases": []
       },
       {
         "name": "status: in progress",
-        "description": "Development has started",
+        "description": "Work in progress",
         "color": "4F46E5",
         "aliases": []
       },
       {
         "name": "status: paused",
-        "description": "Work has been paused",
+        "description": "Work has been put on hold",
         "color": "C7D2FE",
         "aliases": []
       },
       {
         "name": "status: open pull request",
-        "description": "Open pull request is under review awaiting release",
+        "description": "Under review, release pending",
         "color": "FCD34D",
         "aliases": []
       },
@@ -114,24 +121,6 @@
         "name": "problem: accessibility",
         "description": "Accessibility standards not met",
         "color": "DC2626",
-        "aliases": []
-      },
-      {
-        "name": "type: details",
-        "description": "Specs, documentation, design, content, etc.",
-        "color": "EA580C",
-        "aliases": []
-      },
-      {
-        "name": "type: operations",
-        "description": "Infrastructure, process, releases, workflow needs, etc.",
-        "color": "A21CAF",
-        "aliases": []
-      },
-      {
-        "name": "type: development",
-        "description": "Coding, builds, testing, refactoring, etc.",
-        "color": "EC4899",
         "aliases": []
       }
     ]
