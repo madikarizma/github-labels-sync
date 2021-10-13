@@ -1,126 +1,85 @@
 [
   {
     "repos": [
-      "winstonproject/github-labels-sync",
-      "winstonproject/api",
-      "winstonproject/engineering",
-      "winstonproject/eleven21",
-      "winstonproject/dev--eleven21-framework",
-      "winstonproject/devops"
+      "winstonproject/cms"
     ],
     "labels": [
       {
-        "name": "effort: 1",
-        "description": "1 estimated story point",
-        "color": "D6D3D1",
+        "name": "planning",
+        "description": "Not ready for development",
+        "color": "D4D4D4",
         "aliases": []
       },
       {
-        "name": "effort: 2",
-        "description": "2 estimated story points",
-        "color": "D6D3D1",
-        "aliases": []
-      },
-      {
-        "name": "effort: 3",
-        "description": "3 estimated story points",
-        "color": "D6D3D1",
-        "aliases": []
-      },
-      {
-        "name": "effort: 5",
-        "description": "5 estimated story points",
-        "color": "D6D3D1",
-        "aliases": []
-      },
-      {
-        "name": "effort: 8",
-        "description": "8 estimated story points",
-        "color": "D6D3D1",
-        "aliases": []
-      },
-      {
-        "name": "effort: 13",
-        "description": "13 estimated story points",
-        "color": "D6D3D1",
-        "aliases": []
-      },
-      {
-        "name": "effort: 21",
-        "description": "21 estimated story points",
-        "color": "D6D3D1",
-        "aliases": []
-      },
-      {
-        "name": "status: awaiting specification",
-        "description": "Details need to be sorted out",
-        "color": "A16207",
-        "aliases": []
-      },
-      {
-        "name": "status: ready",
-        "description": "Ready to begin work",
-        "color": "15803D",
-        "aliases": []
-      },
-      {
-        "name": "status: in progress",
-        "description": "Work in progress",
-        "color": "4F46E5",
-        "aliases": []
-      },
-      {
-        "name": "status: paused",
-        "description": "Work has been put on hold",
-        "color": "C7D2FE",
-        "aliases": []
-      },
-      {
-        "name": "status: open pull request",
-        "description": "Under review, release pending",
-        "color": "FCD34D",
-        "aliases": []
-      },
-      {
-        "name": "status: released",
-        "description": "Released to production",
-        "color": "2563EB",
-        "aliases": []
-      },
-      {
-        "name": "status: duplicate",
-        "description": "Duplicate of another issue",
-        "color": "6B7280",
-        "aliases": []
-      },
-      {
-        "name": "status: abandoned",
+        "name": "abandoned",
         "description": "Will not proceed",
-        "color": "6B7280",
+        "color": "D4D4D4",
         "aliases": []
       },
       {
-        "name": "problem: blocked",
-        "description": "Blocked by something else",
+        "name": "chore",
+        "description": "Ongoing maintenance tasks",
+        "color": "854D0E",
+        "aliases": []
+      },
+      {
+        "name": "blocked: question",
+        "description": "Information is needed",
         "color": "DC2626",
         "aliases": []
       },
       {
-        "name": "problem: bug",
+        "name": "blocked: functional",
+        "description": "Waiting for other functionality to exist",
+        "color": "DC2626",
+        "aliases": []
+      },
+      {
+        "name": "bug",
         "description": "Bug report",
         "color": "DC2626",
         "aliases": []
       },
       {
-        "name": "problem: security",
-        "description": "Security vulnerability exists",
-        "color": "DC2626",
+        "name": "topic: onboarding",
+        "description": "Setting up new sites",
+        "color": "9333EA",
         "aliases": []
       },
       {
-        "name": "problem: accessibility",
-        "description": "Accessibility standards not met",
-        "color": "DC2626",
+        "name": "topic: organizations",
+        "description": "Managing sites, users, and shared resources",
+        "color": "9333EA",
+        "aliases": []
+      },
+      {
+        "name": "topic: sites",
+        "description": "Managing content and assets",
+        "color": "9333EA",
+        "aliases": []
+      },
+      {
+        "name": "topic: assets",
+        "description": "Managing images and documents",
+        "color": "9333EA",
+        "aliases": []
+      },
+      {
+        "name": "topic: editor",
+        "description": "Editing `models` and `entries`",
+        "color": "9333EA",
+        "aliases": []
+      },
+      {
+        "name": "topic: previews",
+        "description": "See changes before they go live",
+        "color": "9333EA",
+        "aliases": []
+      },
+      {
+        "name": "topic: deployments",
+        "description": "API and Framework working together to deploy sites",
+        "color": "9333EA",
         "aliases": []
       }
     ]
