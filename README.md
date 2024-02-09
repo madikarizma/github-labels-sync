@@ -38,9 +38,9 @@ With `config.json` you can as many collections of labels as you'd like and have 
 [
   {
     "repos": [
-      "winstonproject/repository-1",
-      "winstonproject/repository-2",
-      "winstonproject/repository-3"
+      "madikarizma/repository-1",
+      "madikarizma/repository-2",
+      "madikarizma/repository-3"
     ],
     "labels": [
       {
@@ -71,7 +71,7 @@ With `config.json` you can as many collections of labels as you'd like and have 
   },
   {
     "repos": [
-      "winstonproject/repository-4"
+      "madikarizma/repository-4"
     ],
     "labels": [
       {
